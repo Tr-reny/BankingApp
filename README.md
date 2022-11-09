@@ -52,6 +52,11 @@ Banking APP
 * Scan QR CODE
 * Set Budget more feature 
 
+
+## UI Design on Implimentation
+https://www.figma.com/file/Lov38TtNhWfrixd9ds90Gp/Personal-Banking-App%E2%80%94Free-UI-Kit?node-id=1%3A2
+
+
 ## SCREENSHOOT
 ![Group 1](https://user-images.githubusercontent.com/57016982/200635344-d5cc91cb-bc7a-42c7-b9de-c0dd5e1f5c6d.png)
 ![sd](https://user-images.githubusercontent.com/57016982/200635754-1264fc3a-40d7-460f-b644-092e3a2dd449.png)
