@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Banking App</string>
-    <string name="you_can_createor">You can create or scxhoose pattern and \nmaterial for your individual card.</string>
+    //onBoarding layout
+    <string name="you_can_create">You can create or scxhoose pattern and \nmaterial for your individual card.</string>
     <string name="just_design_nyour_own_card">Just design \nyour own card</string>
     <string name="skip_the_on_boarding_process_imagebutton">skip the on boarding process Imagebutton</string>
 </resources>
