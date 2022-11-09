@@ -27,22 +27,24 @@
 
     <ImageView
         android:id="@+id/imageViewShadow"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="70dp"
         android:layout_below="@id/imageViewCard"
         android:layout_marginTop="-30dp"
         android:src="@drawable/shadows" />
 
     <RelativeLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/imageViewShadow"
-        android:layout_height="wrap_content">
+        android:padding="24dp">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
+            android:layout_above="@+id/textView2"
+            android:layout_marginBottom="12dp"
             android:fontFamily="@font/winterpoppins"
             android:text="Just design \nyour own card"
             android:textColor="@color/textHeader1"
@@ -53,11 +55,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/imageView_skip"
-            android:layout_below="@+id/textView"
             android:layout_marginTop="0dp"
-            android:layout_marginBottom="4dp"
-            android:text="You can create or schoose pattern and material for your individual card."
-            android:textColor="@color/textHeader1" />
+            android:layout_marginBottom="18dp"
+            android:text="You can create or schoose pattern and \nmaterial for your individual card."
+            android:textColor="@color/textHeader1"
+            android:textSize="14sp" />
 
         <ImageView
             android:id="@+id/imageView_skip"
