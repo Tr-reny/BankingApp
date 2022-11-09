@@ -46,7 +46,7 @@
             android:layout_above="@+id/textView2"
             android:layout_marginBottom="12dp"
             android:fontFamily="@font/winterpoppins"
-            android:text="Just design \nyour own card"
+            android:text="@string/just_design_nyour_own_card"
             android:textColor="@color/textHeader1"
             android:textSize="40sp" />
 
@@ -57,7 +57,7 @@
             android:layout_above="@+id/imageView_skip"
             android:layout_marginTop="0dp"
             android:layout_marginBottom="18dp"
-            android:text="You can create or schoose pattern and \nmaterial for your individual card."
+            android:text="@string/you_can_createor"
             android:textColor="@color/textHeader1"
             android:textSize="14sp" />
 
@@ -66,7 +66,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:src="@drawable/skip" />
+            android:src="@drawable/skip"
+            android:contentDescription="@string/skip_the_on_boarding_process_imagebutton" />
 
     </RelativeLayout>
 </RelativeLayout>
