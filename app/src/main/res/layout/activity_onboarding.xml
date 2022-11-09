@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorbgonboarding"
+    android:background="@color/black"
     android:padding="4dp"
     tools:context=".OnBoardingActivity">
 
@@ -18,23 +18,25 @@
     <ImageView
         android:id="@+id/imageViewCard"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:layout_below="@+id/iv_logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/card" />
 
     <ImageView
         android:id="@+id/imageViewShadow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
         android:layout_below="@id/imageViewCard"
+        android:layout_marginTop="-30dp"
         android:src="@drawable/shadows" />
 
     <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/imageViewShadow">
+        android:layout_width="match_parent"
+        android:layout_below="@id/imageViewShadow"
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/textView"
@@ -50,13 +52,15 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView_skip"
             android:layout_below="@+id/textView"
             android:layout_marginTop="0dp"
+            android:layout_marginBottom="4dp"
             android:text="You can create or schoose pattern and material for your individual card."
             android:textColor="@color/textHeader1" />
 
         <ImageView
-            android:id="@+id/imgV_skip"
+            android:id="@+id/imageView_skip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
