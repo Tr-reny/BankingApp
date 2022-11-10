@@ -69,14 +69,15 @@
 
         <EditText
             android:id="@+id/editTextTextEmailAddress"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:hint="thomas@bank.com"
             android:inputType="textEmailAddress"
             android:maxLines="1"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
 
         <TextView
             android:id="@+id/textViewpass"
@@ -93,7 +94,8 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="**********"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:textColorHint="@color/blue" />
 
         <TextView
             android:id="@+id/textViewphone"
@@ -109,7 +111,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="number" />
+            android:hint="+909 99 620 761"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
@@ -118,7 +123,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Create an account" />
+        android:text="Create an account"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -126,14 +133,14 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textViewcontinue"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:text="Or continue with social account"
-        android:textColor="@color/textgray" />
+        <TextView
+            android:id="@+id/textViewcontinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Or continue with social account"
+            android:textColor="@color/textgray" />
 
 
         <LinearLayout
@@ -142,24 +149,30 @@
             android:layout_gravity="center"
             android:orientation="horizontal">
 
-        <ImageButton
-            android:id="@+id/imageButtonApple"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/apple" />
-        <ImageButton
-            android:id="@+id/imagaButtonGoogle"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/google" />
-        <ImageButton
-            android:id="@+id/imageButtonTwitter"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/twitter" />
-    </LinearLayout>
+            <ImageButton
+                android:id="@+id/imageButtonApple"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/apple" />
 
+            <ImageButton
+                android:id="@+id/imagaButtonGoogle"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/google" />
+
+            <ImageButton
+                android:id="@+id/imageButtonTwitter"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/twitter" />
+        </LinearLayout>
+
+    </LinearLayout>
 </LinearLayout>
